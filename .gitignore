@@ -1,0 +1,21 @@
+# Unity: Ignore folders generated automatically
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Visual Studio / Rider
+.vscode/
+.idea/
+*.csproj
+*.sln
+*.user
+*.suo
+
+# OS-generated
+.DS_Store
+Thumbs.db
