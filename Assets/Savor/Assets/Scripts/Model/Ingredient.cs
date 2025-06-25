@@ -15,6 +15,7 @@ namespace Undercooked.Model
         private MeshFilter _meshFilter;
 
         public IngredientStatus Status { get; private set; }
+        [SerializeField] public string statusNow = "Raw";
         public IngredientType Type => data.type;
         public Color BaseColor => data.baseColor;
 
@@ -43,6 +44,7 @@ namespace Undercooked.Model
             _collider.enabled = false;
             
             Status = IngredientStatus.Raw;
+            statusNow = Status.ToString();
             _meshFilter.mesh = data.rawMesh;
             _meshRenderer.material = data.ingredientMaterial;
 
@@ -68,12 +70,14 @@ namespace Undercooked.Model
         public void ChangeToProcessed()
         {
             Status = IngredientStatus.Processed;
+            statusNow = Status.ToString();
             _meshFilter.mesh = data.processedMesh;
         }
 
         public void ChangeToCooked()
         {
             Status = IngredientStatus.Cooked;
+            statusNow = Status.ToString();
             var cookedMesh = data.cookedMesh;
             if (cookedMesh == null) return;
             

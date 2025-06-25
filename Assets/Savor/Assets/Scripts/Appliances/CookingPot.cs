@@ -295,14 +295,12 @@ namespace Undercooked.Appliances
 
             _isCooking = false;
             
-            if (Ingredients.Count == MaxNumberIngredients)
+            if (Ingredients.Count >= 1)
             {
                 TriggerSuccessfulCook();
                 yield break;
             }
 
-            // Debug.Log("[CookingPot] Finish partial cooking");
-            
             _burnCoroutine = StartCoroutine(Burn());
         }
 
@@ -412,7 +410,13 @@ namespace Undercooked.Appliances
         {
             IsCookFinished = true;
             _currentCookTime = 0f;
-            _burnCoroutine = StartCoroutine(Burn());
+            // Ubah status semua ingredient menjadi Cooked
+            foreach (var ingredient in Ingredients)
+            {
+                Debug.Log("Mengubah status ingredient: " + ingredient.name + " dari " + ingredient.Status + " ke Cooked");
+                ingredient.ChangeToCooked();
+            }
+            _burnCoroutine = StartCoroutine(Burn()); 
         }
         
         public void Pick()

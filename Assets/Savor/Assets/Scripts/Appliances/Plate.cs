@@ -73,6 +73,15 @@ namespace Undercooked.Appliances
         {
             // check for soup (3 equal cooked ingredients, mushroom, onion or tomato)
             if (!IsEmpty()) return false;
+            // Pastikan semua ingredient sudah Cooked
+            foreach (var ingredient in ingredients)
+            {
+                if (ingredient.Status != IngredientStatus.Cooked)
+                {
+                    Debug.Log("[Plate] Semua ingredient harus sudah Cooked untuk dimasukkan ke Plate");
+                    return false;
+                }
+            }
             _ingredients.AddRange(ingredients);
             
             foreach (var ingredient in _ingredients)
@@ -118,7 +127,7 @@ namespace Undercooked.Appliances
         /// </summary>
         public static bool CheckSoupIngredients(IReadOnlyList<Ingredient> ingredients)
         {
-            if (ingredients == null || ingredients.Count != 3)
+            if (ingredients == null || ingredients.Count < 1)
             {
                 return false;
             }
@@ -127,18 +136,18 @@ namespace Undercooked.Appliances
                 ingredients[0].Type != IngredientType.Tomato &&
                 ingredients[0].Type != IngredientType.Ayam)
             {
-                Debug.Log("[Plate] Soup only must contain onion, tomato or mushroom");
+                Debug.Log("[Plate] Soup only must contain onion, tomato or ayam");
                 return false;
             }
-            
-            if (ingredients[0].Type != ingredients[1].Type ||
-                ingredients[1].Type != ingredients[2].Type ||
-                ingredients[0].Type != ingredients[2].Type)
+
+            for (int i = 1; i < ingredients.Count; i++)
             {
-                Debug.Log("[Plate] Soup with mixed ingredients! You must thrash it away! What a waste!");
-                return false;
+                if (ingredients[i].Type != ingredients[0].Type)
+                {
+                    Debug.Log("[Plate] Soup with mixed ingredients! You must thrash it away! What a waste!");
+                    return false;
+                }
             }
-            
             return true;
         }
         
