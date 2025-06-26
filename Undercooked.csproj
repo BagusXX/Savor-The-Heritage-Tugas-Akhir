@@ -86,6 +86,7 @@
     <Compile Include="Assets\Savor\Assets\Scripts\Appliances\DeliverCountertop.cs" />
     <Compile Include="Assets\Savor\Assets\Scripts\Player\InteractableController.cs" />
     <Compile Include="Assets\Savor\Assets\Scripts\Utils\PlayAudioFromAnimationEvent.cs" />
+    <Compile Include="Assets\Savor\Assets\Scripts\Appliances\Grilling.cs" />
     <Compile Include="Assets\Savor\Assets\Scripts\Appliances\Countertop.cs" />
     <Compile Include="Assets\Savor\Assets\Scripts\UI\DeliverCountertopUI.cs" />
     <Compile Include="Assets\Savor\Assets\Scripts\Appliances\Merebus.cs" />
