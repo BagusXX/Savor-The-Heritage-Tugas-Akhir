@@ -180,7 +180,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slot: {fileID: 0}
   data: {fileID: 11400000, guid: 89987fe86bcaa1445ae0afe441465471, type: 2}
-  startingStatus: 0
+  statusNow: Raw
+  startingStatus: 1
 --- !u!23 &6023056803993014146
 MeshRenderer:
   m_ObjectHideFlags: 0

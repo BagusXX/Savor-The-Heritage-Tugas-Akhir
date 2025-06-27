@@ -7,6 +7,8 @@ namespace Undercooked.Model
         Ayam,
         Meat,
         Jahe,
-        Ikan
+        Ikan,
+        Telur,
+        Tauge
     }
 }

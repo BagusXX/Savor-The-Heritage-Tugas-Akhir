@@ -118,7 +118,8 @@ namespace Undercooked.Appliances
                     }
                     if (ingredient.Type == IngredientType.Onion ||
                         ingredient.Type == IngredientType.Tomato ||
-                        ingredient.Type == IngredientType.Ayam)
+                        ingredient.Type == IngredientType.Ayam ||
+                        ingredient.Type == IngredientType.Tauge)
                     {
                         return TryDrop(pickableToDrop);    
                     }
