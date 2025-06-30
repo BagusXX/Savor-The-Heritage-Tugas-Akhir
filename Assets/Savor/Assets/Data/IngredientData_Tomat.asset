@@ -15,8 +15,10 @@ MonoBehaviour:
   type: 1
   processTime: 4.5
   cookTime: 6
-  rawMesh: {fileID: 0}
-  processedMesh: {fileID: 0}
+  rawMesh: {fileID: -3616723163699853684, guid: 3bef08a206ece2c44948ef1db6f7f9a4,
+    type: 3}
+  processedMesh: {fileID: -1754032872845783238, guid: 36d33d216281efb468d885dd5b945cac,
+    type: 3}
   cookedMesh: {fileID: 0}
   ingredientMaterial: {fileID: 2100000, guid: 018d5adf0e4406b4399bd910c95dc37b, type: 2}
   baseColor: {r: 0.6627451, g: 0.22745098, b: 0.1254902, a: 1}

@@ -134,6 +134,12 @@ namespace Undercooked.Appliances
 
             if (ingredients[0].Type != IngredientType.Onion &&
                 ingredients[0].Type != IngredientType.Tomato &&
+                ingredients[0].Type != IngredientType.Bihun &&
+                ingredients[0].Type != IngredientType.Jahe &&
+                ingredients[0].Type != IngredientType.Ikan &&
+                ingredients[0].Type != IngredientType.Kol &&
+                ingredients[0].Type != IngredientType.Tauge &&
+                ingredients[0].Type != IngredientType.Telur &&
                 ingredients[0].Type != IngredientType.Ayam)
             {
                 Debug.Log("[Plate] Soup only must contain onion, tomato or ayam");

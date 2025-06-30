@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cecc7525c904f8f8c225f0679b3d6c0, type: 3}
+  m_Name: IngredientData_Kol
+  m_EditorClassIdentifier: 
+  type: 9
+  processTime: 4.5
+  cookTime: 6
+  rawMesh: {fileID: 3760286561286826541, guid: 0dd7d61442297134d8f33968c6bf1d22, type: 3}
+  processedMesh: {fileID: -5915979049549990134, guid: 8c8fcf9c81305d34eaa84f8df795e51b,
+    type: 3}
+  cookedMesh: {fileID: 3760286561286826541, guid: 0dd7d61442297134d8f33968c6bf1d22,
+    type: 3}
+  ingredientMaterial: {fileID: 2100000, guid: 42c9cd9411100cc42bd4dce4fad481b9, type: 2}
+  baseColor: {r: 0.6627451, g: 0.22745098, b: 0.1254902, a: 1}
+  sprite: {fileID: -6996000231109423620, guid: c286e9a30b9402c4e8ca82508e97d529, type: 3}

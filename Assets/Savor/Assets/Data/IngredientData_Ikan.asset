@@ -20,6 +20,6 @@ MonoBehaviour:
   processedMesh: {fileID: -3952672399632451665, guid: dc17866a2ab17d748b65003a129c9a05,
     type: 3}
   cookedMesh: {fileID: 0}
-  ingredientMaterial: {fileID: 2100000, guid: 018d5adf0e4406b4399bd910c95dc37b, type: 2}
+  ingredientMaterial: {fileID: 2100000, guid: 72684eafc2f16fd4f8cd8935531748b1, type: 2}
   baseColor: {r: 0.6627451, g: 0.22745098, b: 0.1254902, a: 1}
   sprite: {fileID: -5250330138473274576, guid: c286e9a30b9402c4e8ca82508e97d529, type: 3}

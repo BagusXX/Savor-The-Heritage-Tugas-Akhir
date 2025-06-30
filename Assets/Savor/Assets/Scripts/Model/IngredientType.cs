@@ -9,6 +9,8 @@ namespace Undercooked.Model
         Jahe,
         Ikan,
         Telur,
-        Tauge
+        Tauge,
+        Bihun,
+        Kol
     }
 }

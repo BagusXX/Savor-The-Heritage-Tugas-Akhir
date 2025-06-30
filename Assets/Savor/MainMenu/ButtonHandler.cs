@@ -6,7 +6,7 @@ public class ButtonHandler : MonoBehaviour
 
     public void OnPlayButtonClicked()
     {
-        sceneTransition.FadeToScene("CutScene");  
+        sceneTransition.FadeToScene("CutSceneLevel1");  
     }
 
     public void OnTrainingButtonClicked()
