@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cecc7525c904f8f8c225f0679b3d6c0, type: 3}
+  m_Name: IngredientData_DagingAyamSate
+  m_EditorClassIdentifier: 
+  type: 3
+  processTime: 4.5
+  cookTime: 6
+  rawMesh: {fileID: 5302568919011541938, guid: 314fbdf88496e494f95bffcfd0f943c6, type: 3}
+  processedMesh: {fileID: 5060444177187149915, guid: 2eaf55259e7d9054b89f07429bd509b5,
+    type: 3}
+  cookedMesh: {fileID: 0}
+  ingredientMaterial: {fileID: 2100000, guid: 018d5adf0e4406b4399bd910c95dc37b, type: 2}
+  baseColor: {r: 0.6627451, g: 0.22745098, b: 0.1254902, a: 1}
+  sprite: {fileID: -2844531463381759980, guid: f2846ec1658c8534d8487b998ae89b4b, type: 3}

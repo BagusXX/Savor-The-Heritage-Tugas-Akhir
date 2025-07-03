@@ -15,16 +15,16 @@ EditorBuildSettings:
     path: Assets/Savor/MainMenu/CutSceneLevel1.unity
     guid: 4250a75a23010f949a4e99a5d519b297
   - enabled: 0
-    path: Assets/Savor/Assets/Scenes/Level1.unity
+    path: Assets/Savor/Assets/Scenes/Level3.unity
     guid: 337ef4543214679479f66d052d3c9e19
   - enabled: 0
     path: Assets/Savor/Assets/Scenes/Demo.unity
     guid: 0149f469402732e4786b127dd696939b
   - enabled: 0
-    path: Assets/Savor/Assets/Scenes/Level2.unity
+    path: Assets/Savor/Assets/Scenes/Level1.unity
     guid: 392f6d7eacf3fd54e90f1a19b7305a6d
   - enabled: 0
-    path: Assets/Savor/Assets/Scenes/Level3.unity
+    path: Assets/Savor/Assets/Scenes/Level2.unity
     guid: b8d4bcbbca29f1440b2d7f60407d80ef
   - enabled: 0
     path: Assets/Savor/MainMenu/CutScene.unity

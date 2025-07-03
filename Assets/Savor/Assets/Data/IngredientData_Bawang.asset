@@ -21,4 +21,4 @@ MonoBehaviour:
   cookedMesh: {fileID: 0}
   ingredientMaterial: {fileID: 2100000, guid: d3c37f18219743e43be9a1088cb6afd3, type: 2}
   baseColor: {r: 0.8235294, g: 0.45882353, b: 0.1882353, a: 1}
-  sprite: {fileID: -8221990878993879952, guid: c286e9a30b9402c4e8ca82508e97d529, type: 3}
+  sprite: {fileID: -1757141014, guid: 0531bafda100def48b3d8700f294c0fc, type: 3}

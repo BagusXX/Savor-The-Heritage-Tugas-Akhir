@@ -12,8 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 765d4f147e7a42529013b04139ae37ac, type: 3}
   m_Name: OrderData_OnionSoup
   m_EditorClassIdentifier: 
-  sprite: {fileID: 452195946211186457, guid: c286e9a30b9402c4e8ca82508e97d529, type: 3}
+  sprite: {fileID: 143893774, guid: 0531bafda100def48b3d8700f294c0fc, type: 3}
   ingredients:
-  - {fileID: 11400000, guid: e08b6a9503f12a0469880e51ecbaa65c, type: 2}
-  - {fileID: 11400000, guid: e08b6a9503f12a0469880e51ecbaa65c, type: 2}
   - {fileID: 11400000, guid: e08b6a9503f12a0469880e51ecbaa65c, type: 2}

@@ -140,9 +140,10 @@ namespace Undercooked.Appliances
                 ingredients[0].Type != IngredientType.Kol &&
                 ingredients[0].Type != IngredientType.Tauge &&
                 ingredients[0].Type != IngredientType.Telur &&
+                ingredients[0].Type != IngredientType.Meat &&
                 ingredients[0].Type != IngredientType.Ayam)
             {
-                Debug.Log("[Plate] Soup only must contain onion, tomato or ayam");
+                Debug.Log("[Plate] Bahan belum ditambahkan ke script");
                 return false;
             }
 
@@ -150,7 +151,7 @@ namespace Undercooked.Appliances
             {
                 if (ingredients[i].Type != ingredients[0].Type)
                 {
-                    Debug.Log("[Plate] Soup with mixed ingredients! You must thrash it away! What a waste!");
+                    Debug.Log("[Plate] Bahan yang dimasak salah");
                     return false;
                 }
             }

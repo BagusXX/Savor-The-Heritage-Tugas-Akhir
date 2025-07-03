@@ -167,6 +167,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e8eb2e9134c4fbbbefe5ec784eecd31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slot: {fileID: 0}
+  slot: {fileID: 7885049008857170037}
   data: {fileID: 11400000, guid: 73238cfea4af83c4ca382c12b75b2188, type: 2}
+  statusNow: Raw
   startingStatus: 0
+--- !u!4 &7885049008857170037 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: dc17866a2ab17d748b65003a129c9a05,
+    type: 3}
+  m_PrefabInstance: {fileID: 7703384307079260062}
+  m_PrefabAsset: {fileID: 0}

@@ -121,6 +121,7 @@ namespace Undercooked.Appliances
                         ingredient.Type == IngredientType.Ayam ||
                         ingredient.Type == IngredientType.Tauge ||
                         ingredient.Type == IngredientType.Kol ||
+                        ingredient.Type == IngredientType.Meat ||
                         ingredient.Type == IngredientType.Bihun)
                     {
                         return TryDrop(pickableToDrop);    

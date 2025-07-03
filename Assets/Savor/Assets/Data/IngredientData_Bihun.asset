@@ -23,4 +23,4 @@ MonoBehaviour:
     type: 3}
   ingredientMaterial: {fileID: 2100000, guid: 393e98357beabe6438bf8333d385a9ba, type: 2}
   baseColor: {r: 0.6627451, g: 0.22745098, b: 0.1254902, a: 1}
-  sprite: {fileID: -5250330138473274576, guid: c286e9a30b9402c4e8ca82508e97d529, type: 3}
+  sprite: {fileID: -1383550660, guid: 8f28508f9a7a2b94fa53762b831ac0d0, type: 3}

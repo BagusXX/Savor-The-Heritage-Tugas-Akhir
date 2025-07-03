@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: 361ea4d7cfe3c7d408b2910bcfa89e57
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 383
+        width: 109
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b291c14d19f991c40bf868f628ea622a
+      internalID: 1310047516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 382
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e620f22196bea934a898255d4ad0e6a3
+      internalID: 53850241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 382
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 672254dbeeb029a4d95be622bea305c4
+      internalID: -407614590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 382
+        width: 112
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d182a59843233054b9b17cac531b0c77
+      internalID: 493793791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 255
+        width: 111
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed05e6a93b88e542af1afb5fdb4eeb6
+      internalID: 70611376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 255
+        width: 113
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9575607f2c9588845bcaca3431c7b145
+      internalID: 1843662661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sate
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 272
+        width: 117
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b90a3ea9f8e0443935fd50ea4eb9f8
+      internalID: 1812747611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 264
+        width: 116
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7748047ef9fa6774aaf3dfbdfea86f4c
+      internalID: 1360623673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 126
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d802134e7e33714b875523bbe9e771a
+      internalID: 1260464569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 126
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bd4202acec1cb549b6107b0ce3ce0b1
+      internalID: 1484088368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 134
+        width: 114
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b4fc56d668b6946b3b70fadd66ab65
+      internalID: -56401319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 131
+        width: 117
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfd8b6c73ff2ca4ebc8f483bcdfb80c
+      internalID: 915840667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 30
+        width: 106
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b88dcfeee8aff14db8856c42fa0b70c
+      internalID: 314326520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 29
+        width: 104
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477ed376ca8f5a44a83aca03b404597e
+      internalID: 1978321649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 53
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6190f7829e3a54a9828b2087d034ca
+      internalID: -1874578438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 53
+        width: 14
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f26d0306f179624487d7001adfda56b
+      internalID: 580873776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 53
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dbe9de1d01659f42b29604f4c90ffed
+      internalID: -2117810044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 17
+        width: 113
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f7f54ed82bf8b409efdf5e624b28c7
+      internalID: -531344379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Savor_TA__5_-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 5
+        width: 90
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5e3a37dad5337c469fd4648c347b086
+      internalID: 1476996321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 068f6051506020e408d0648a683221af
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Sate: 1812747611
+      Savor_TA__5_-removebg-preview_0: 1310047516
+      Savor_TA__5_-removebg-preview_1: 53850241
+      Savor_TA__5_-removebg-preview_10: -56401319
+      Savor_TA__5_-removebg-preview_11: 915840667
+      Savor_TA__5_-removebg-preview_12: 314326520
+      Savor_TA__5_-removebg-preview_13: 1978321649
+      Savor_TA__5_-removebg-preview_14: -1874578438
+      Savor_TA__5_-removebg-preview_15: 580873776
+      Savor_TA__5_-removebg-preview_16: -2117810044
+      Savor_TA__5_-removebg-preview_17: -531344379
+      Savor_TA__5_-removebg-preview_18: 1476996321
+      Savor_TA__5_-removebg-preview_2: -407614590
+      Savor_TA__5_-removebg-preview_3: 493793791
+      Savor_TA__5_-removebg-preview_4: 70611376
+      Savor_TA__5_-removebg-preview_5: 1843662661
+      Savor_TA__5_-removebg-preview_7: 1360623673
+      Savor_TA__5_-removebg-preview_8: 1260464569
+      Savor_TA__5_-removebg-preview_9: 1484088368
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
